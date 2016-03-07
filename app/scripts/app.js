@@ -30,6 +30,6 @@ angular
         controllerAs: 'about'
       })
       .otherwise({
-        redirectTo: '/'
+        templateUrl: '/404.html'
       });
   });

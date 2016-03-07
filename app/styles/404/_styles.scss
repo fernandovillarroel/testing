@@ -1,0 +1,14 @@
+.error-page {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  background-color: gray;
+  .error-text {
+  	text-align: center;
+    font-size: 30px;
+    font-family: helvetica;
+  }
+  .img-error {
+  	transform: scale(0.2);
+  }
+}
